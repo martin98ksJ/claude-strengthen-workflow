@@ -4,7 +4,7 @@ description: 数据库表设计和 RESTful API 接口设计规范
 version: "1.1"
 ---
 
-> 通用检查项见 ~/.claude/skills/_common/output-format.md
+> 通用检查项见 ~/.claude/skills/_common/quality-checklist.md
 > 开发实践基线见 ~/.claude/skills/_common/dev-practices.md
 > 输出格式遵循 CLAUDE.md
 
@@ -59,7 +59,8 @@ version: "1.1"
 - [ ] 设最大 `pageSize` 限制（如 100），未传时用默认值（如 20），防止一次拉全表
 - [ ] 分页响应统一 `{ list, total, page, pageSize }`，空结果 list 返回 `[]`
 - [ ] 简单筛选用 GET query string（`?status=active&sort=created_at:desc`），复杂筛选（多条件/数组/嵌套）用 POST body
-- [ ] 时间范围筛选：参数命名 `start_time/end_time`，格式 `yyyy-MM-dd` 或 `yyyy-MM-dd HH:mm:ss`，后端按 backend-conventions 规则补全时分秒
+- [ ] 时间范围筛选：参数命名 `start_time/end_time`
+  > 时间格式规范详见 backend-conventions
 - [ ] 排序参数：`sort=field:asc|desc`，默认按 `created_at:desc`，支持的排序字段需白名单校验（防注入）
 
 ### 幂等与安全
@@ -78,4 +79,4 @@ version: "1.1"
 
 ## 输出
 
-输出格式遵循 CLAUDE.md，通用检查项见 _common/output-format.md。
+输出格式遵循 CLAUDE.md，通用检查项见 _common/quality-checklist.md。

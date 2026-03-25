@@ -4,7 +4,7 @@
 
 A Claude Code workflow enhancement for full-stack development, covering the complete lifecycle from design → coding → review → debugging.
 
-3 Subagents + 20 Skills + CLAUDE.md rules — so Claude writes conformant code from the start, not just catching issues in review.
+3 Subagents + 19 Skills + CLAUDE.md rules — so Claude writes conformant code from the start, not just catching issues in review.
 
 ---
 
@@ -22,7 +22,7 @@ A Claude Code workflow enhancement for full-stack development, covering the comp
 
 ---
 
-### 20 Skills (by tech stack)
+### 19 Skills (by tech stack)
 
 **Frontend**
 | Skill | Coverage |
@@ -31,6 +31,7 @@ A Claude Code workflow enhancement for full-stack development, covering the comp
 | `react-conventions` | Hooks, component patterns, state management |
 | `frontend-conventions` | Component design, four-state handling, i18n, style isolation |
 | `ui-ue-guidelines` | Layout, forms, dialogs, user feedback, accessibility |
+| `frontend-ui-design` | ASCII wireframes + component specs + interaction flows + i18n key inventory before coding |
 | `mobile-cross-platform` | Flutter/RN/MiniApp architecture, navigation, platform adaptation |
 
 **Backend**

@@ -4,7 +4,7 @@ description: 页面布局、组件交互、用户反馈和无障碍的 UI/UE 设
 version: "1.1"
 ---
 
-> 通用检查项见 ~/.claude/skills/_common/output-format.md
+> 通用检查项见 ~/.claude/skills/_common/quality-checklist.md
 > 开发实践基线见 ~/.claude/skills/_common/dev-practices.md
 > 输出格式遵循 CLAUDE.md
 
@@ -119,4 +119,4 @@ version: "1.1"
 
 ## 输出
 
-输出格式遵循 CLAUDE.md，通用检查项见 _common/output-format.md。
+输出格式遵循 CLAUDE.md，通用检查项见 _common/quality-checklist.md。

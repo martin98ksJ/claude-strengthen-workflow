@@ -4,7 +4,7 @@ description: 前端开发时的组件设计、状态管理和交互规范
 version: "1.0"
 ---
 
-> 通用检查项见 ~/.claude/skills/_common/output-format.md
+> 通用检查项见 ~/.claude/skills/_common/quality-checklist.md
 > 开发实践基线见 ~/.claude/skills/_common/dev-practices.md
 > 输出格式遵循 CLAUDE.md
 
@@ -45,4 +45,4 @@ version: "1.0"
 
 ## 输出
 
-输出格式遵循 CLAUDE.md，通用检查项见 _common/output-format.md。
+输出格式遵循 CLAUDE.md，通用检查项见 _common/quality-checklist.md。

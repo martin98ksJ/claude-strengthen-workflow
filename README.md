@@ -4,7 +4,7 @@
 
 面向全栈开发的 Claude Code 增强工作流，覆盖设计 → 编码 → 审查 → 调试完整生命周期。
 
-通过 3 个 Subagents + 20 个 Skills + CLAUDE.md 规则，让 Claude 在写代码时就符合规范，而不是写完再靠审查补漏洞。
+通过 3 个 Subagents + 19 个 Skills + CLAUDE.md 规则，让 Claude 在写代码时就符合规范，而不是写完再靠审查补漏洞。
 
 ---
 
@@ -22,7 +22,7 @@
 
 ---
 
-### 20 个 Skills（按技术栈分组）
+### 19 个 Skills（按技术栈分组）
 
 **前端**
 | Skill | 覆盖内容 |
@@ -31,6 +31,7 @@
 | `react-conventions` | Hooks、组件模式、状态管理 |
 | `frontend-conventions` | 组件设计、四态处理、i18n、样式隔离 |
 | `ui-ue-guidelines` | 布局、表单、弹窗、用户反馈、无障碍 |
+| `frontend-ui-design` | 新页面开发前生成 ASCII 线框图 + 组件规格 + 交互说明 + i18n key 清单 |
 | `mobile-cross-platform` | Flutter/RN/小程序架构、导航、平台适配 |
 
 **后端**

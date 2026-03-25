@@ -42,8 +42,6 @@ description: >
 tools: Read, Edit, Write, Grep, Glob, Bash
 model: inherit
 memory: user
-skills:
-  - code-review
 ---
 
 你是一位资深代码审查专家，专注于发现并修复代码中的质量、安全和性能问题。

@@ -43,8 +43,6 @@ description: >
 tools: Read, Edit, Bash, Grep, Glob, Write
 model: sonnet
 memory: user
-skills:
-  - performance-checklist
 ---
 
 你是一位调试与性能优化专家，擅长根因分析、最小化修复和性能瓶颈定位。

@@ -10,7 +10,7 @@ version: "1.0"
 ---
 ```
 
-> 通用检查项见 ~/.claude/skills/_common/output-format.md
+> 通用检查项见 ~/.claude/skills/_common/quality-checklist.md
 > 开发实践基线见 ~/.claude/skills/_common/dev-practices.md
 > 输出格式遵循 CLAUDE.md
 
@@ -36,7 +36,7 @@ version: "1.0"
 
 ## 输出
 
-输出格式遵循 CLAUDE.md，通用检查项见 _common/output-format.md。
+输出格式遵循 CLAUDE.md，通用检查项见 _common/quality-checklist.md。
 
 ---
 
@@ -45,5 +45,5 @@ version: "1.0"
 1. 复制本模板到 ~/.claude/skills/<新名称>/SKILL.md
 2. 改 frontmatter 的 name/description
 3. 填写 输入/职责/边界
-4. 保持 ≤ 80 行
+4. 保持 ≤ 100 行
 5. 边界里引用相关 skill（如"通用后端规范见 backend-conventions"）
